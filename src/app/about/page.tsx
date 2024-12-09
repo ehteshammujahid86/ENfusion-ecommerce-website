@@ -10,13 +10,13 @@ export default function About(){
           <p className="mb-4 text-sm text-gray-500">Welcome to ENfusion store, your one-stop shop for the finest products. We are dedicated to providing you with the highest quality items and an exceptional shopping experience.</p>
           <p className="mb-4 text-sm text-gray-500">Founded in 2020, our mission is to offer a wide range of carefully curated products to meet your needs. Whether you are shopping for fashion, electronics, home decor, or more, we have got you covered.</p>
           <p className="text-sm text-gray-500">We aim to make online shopping simple, convenient, and enjoyable. With a focus on customer satisfaction and top-tier quality, we ensure that every product you purchase from us exceeds your expectations.</p>
-          <p className="text-sm text-gray-500"><h1>Our Values:</h1>
+          <p className="text-sm text-gray-500">Our Values
 1. Quality Products: We carefully select products to meet high standards. <br />
 2. Fast Shipping: Enjoy prompt and reliable delivery on every order. <br />
 3. Sustainable Practices: We strive to support sustainable sourcing and eco-friendly initiatives.</p>
         </div>
         <div>
-          <Image src="https://readymadeui.com/management-img.webp" alt="Placeholder Image" className="rounded-lg object-contain w-full h-full" />
+          <Image src="https://readymadeui.com/management-img.webp" alt="Placeholder Image" width={1000} height={1000}  className="rounded-lg object-contain  w-full h-full" />
         </div>
       </div>
     </div>
