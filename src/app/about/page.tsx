@@ -1,3 +1,5 @@
+import Image from "next/image"
+import Link from "next/link"
 export default function About(){
     return(
         <div className="">
@@ -6,7 +8,7 @@ export default function About(){
         <div className="text-left">
           <h2 className="text-gray-800 text-3xl font-bold mb-6">About Us</h2>
           <p className="mb-4 text-sm text-gray-500">Welcome to ENfusion store, your one-stop shop for the finest products. We are dedicated to providing you with the highest quality items and an exceptional shopping experience.</p>
-          <p className="mb-4 text-sm text-gray-500">Founded in 2020, our mission is to offer a wide range of carefully curated products to meet your needs. Whether you're shopping for fashion, electronics, home decor, or more, we've got you covered.</p>
+          <p className="mb-4 text-sm text-gray-500">Founded in 2020, our mission is to offer a wide range of carefully curated products to meet your needs. Whether you are shopping for fashion, electronics, home decor, or more, we have got you covered.</p>
           <p className="text-sm text-gray-500">We aim to make online shopping simple, convenient, and enjoyable. With a focus on customer satisfaction and top-tier quality, we ensure that every product you purchase from us exceeds your expectations.</p>
           <p className="text-sm text-gray-500"><h1>Our Values:</h1>
 1. Quality Products: We carefully select products to meet high standards. <br />
@@ -14,7 +16,7 @@ export default function About(){
 3. Sustainable Practices: We strive to support sustainable sourcing and eco-friendly initiatives.</p>
         </div>
         <div>
-          <img src="https://readymadeui.com/management-img.webp" alt="Placeholder Image" className="rounded-lg object-contain w-full h-full" />
+          <Image src="https://readymadeui.com/management-img.webp" alt="Placeholder Image" className="rounded-lg object-contain w-full h-full" />
         </div>
       </div>
     </div>
@@ -34,7 +36,7 @@ export default function About(){
         <div className="text-center">
           <h3 className="text-gray-800 text-4xl font-extrabold">100<span className="text-blue-600">K</span></h3>
           <p className="text-base font-bold mt-4">Engagement</p>
-          <p className="text-sm text-gray-500 mt-2">The level of buyers engagement with the website's content and features.</p>
+          <p className="text-sm text-gray-500 mt-2">The level of buyers engagement with the websites content and features.</p>
         </div>
         <div className="text-center">
           <h3 className="text-gray-800 text-4xl font-extrabold">99.9<span className="text-blue-600">%</span></h3>
