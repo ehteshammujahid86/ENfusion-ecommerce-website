@@ -18,7 +18,7 @@ export default function HomePage(){
       <h1 className="text-4xl py-10 font-semibold text-center px-4 md:px-8 lg:px-16 xl:32 2xl:px-64 mb-12">Categories</h1>
       <CategogyList/>
       </div> */}
-      <div className="mt-24">
+      <div className="mt-24 mx-10">
     <h1 className="text-4xl py-10 font-semibold text-center px-4 md:px-8 lg:px-16 xl:32 2xl:px-64 mb-6">Categories</h1>
 
     <div className="flex flex-col items-center">
