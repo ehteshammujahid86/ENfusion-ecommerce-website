@@ -4,6 +4,17 @@ import Link from "next/link";
 export default function Shop(){
   return (
     <div className="px-20">
+        <div className="mt-10">
+        <div className="flex gap-4 max-sm:flex-col items-center justify-center text-center bg-black text-white font-bold px-6 py-3.5 rounded font-[sans-serif]">
+      <p className="text-base">Limited Time Offer: Get 20% Off!</p>
+
+      <div className="flex gap-2">
+        <button type="button" className="bg-white text-blue-500 py-2.5 px-5 rounded text-sm hover:underline">
+          Learn More
+        </button>
+      </div>
+    </div>
+        </div>
     <div className="mt-12 flex gap-x-8 gap-y-16 justify-between flex-wrap">
          <Link href="/shop" className="w-full flex-col gap-4 sm:w-[45%] lg:w-[22%]">
          <div className="relative w-full h-80">
